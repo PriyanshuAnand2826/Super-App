@@ -1,0 +1,16 @@
+.container{
+ cursor: pointer;
+ background: #FF5209;
+ height: 20vh;
+ width: 10vw;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ padding: 15px;
+
+}
+.title{
+ font-size: 15px;
+ font-family: "DM Sans", sans-serif;
+ letter-spacing: 0.1rem;
+}

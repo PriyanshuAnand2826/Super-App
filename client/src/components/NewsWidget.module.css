@@ -1,0 +1,55 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+ 
+}
+
+.header {
+  position: relative;
+  height: 60%;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.heading {
+  background-color: black;
+  padding: 0px 12px;
+  padding-top: 10px;
+  opacity: 0.75;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  font-size: small;
+  font-weight: bold;
+  
+}
+
+.heading p:last-of-type {
+  font-size: smaller;
+  font-weight: normal;
+}
+
+
+.header img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+}
+.body{
+  background-color: white;
+  color: black;
+  flex: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,38 @@
+.container {
+  container-type: inline-size;
+  height: 100%;
+  width: 100%;
+  background: #101744;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: #FF4ADE;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+@container (max-width: 600px) {
+  .content{
+    margin: 12px;
+    font-size: x-small;
+  }
+  .thumbnail{
+    width: 40px;
+    height: 40px;
+  }
+
+}

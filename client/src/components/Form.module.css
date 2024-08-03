@@ -1,0 +1,37 @@
+.container{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+ 
+ 
+}
+.container input{
+  margin: 10px;
+  height: 2rem;
+  font-size: 1rem;
+  padding: 5px 15px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: 
+  #292929;
+}
+.btn {
+  background-color: #72DB73;
+  width: 80%;
+  color: white;
+  height: 2.5rem;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  border: none;
+}
+.error{
+  color: red;
+    font-size: 0.8rem;
+    text-align: start;
+    margin-left: 4rem;
+}

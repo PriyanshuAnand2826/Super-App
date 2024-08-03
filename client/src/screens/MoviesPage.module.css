@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  align-items: center;
+}
+
+.heading {
+  flex: 1;
+  font-family: "Single Day", cursive;
+  font-size: 2rem;
+  color: #72DB73;
+}
+
+.header_img{
+  width: 40px;
+  object-fit: contain;
+  margin-right: 20px;
+  /* width: 100px;
+  object-fit: contain; */
+}

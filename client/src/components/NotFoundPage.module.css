@@ -1,0 +1,25 @@
+.container{
+  
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.heading{
+  color:  #57AD68;;
+  font-size: 2.5rem;
+}
+.sub_text{
+  font-size: 2rem;
+  margin: 10px 0 ;
+}
+.link{
+  background-color: 
+  #57AD68;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}

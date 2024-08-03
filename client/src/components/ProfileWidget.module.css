@@ -1,0 +1,87 @@
+.container {
+  container-type: inline-size;
+  height: 100%;
+  width: 100%;
+  background: #5746EA;
+  border-radius: 20px;
+  display: flex;
+  gap: 50px;
+
+}
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.avatar img {
+  height: 85%;
+  object-fit: cover;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.credentials{
+  color: white;
+}
+
+.genres {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 10px;
+  margin-top: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+.pill{
+  background-color:  #9F94FF;
+  padding: 5px 10px;
+  border-radius: 30px;
+  display: flex;
+  margin-right: 10px;
+  gap: 20px;
+  font-size: x-small;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+ @container (min-width: 600px) {
+  .details {
+      display: flex;
+      flex-direction: column;     
+      /* background-color: red; */
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      font-weight: bold;
+      margin: 3rem 0px;
+  }
+  .pill{
+    padding: 8px 30px;
+  border-radius: 30px;
+  display: flex;
+  margin-right: 20px;
+  gap: 20px;
+  font-size: medium;
+  }
+  .genres{
+    margin-top: 3rem;
+    row-gap: 20px;
+  }
+  .avatar{
+    margin-left: 3rem;
+  }
+  .avatar img{
+    height: 80%;
+  }
+
+  
+
+}

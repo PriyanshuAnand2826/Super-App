@@ -1,0 +1,67 @@
+/* 
+main div */
+.container{
+  font-size: 2rem;
+  display: flex;
+ flex-direction: row;
+ height: 100%;
+ width: 100%;
+}
+
+
+/* left part  */
+
+
+.left{
+  flex: 1;
+  background: url('../assets/image13.png');
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.label{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  max-width: 25rem;
+  font-size: xx-large;
+  font-weight: bolder;
+  position: fixed;
+}
+
+
+/* 
+right part container  */
+
+
+.right{
+  width: 50%;
+  padding: 20px;
+ 
+}
+.footer p{
+  font-size:1rem;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: 4.5rem;
+}
+
+.right .header{
+  text-align: center;
+}
+.header p{
+  font-size: 1rem;
+}
+.header h1{
+  color: #72DB73;
+  font-size: 2rem;
+  font-family: "Single Day", cursive;
+}
+span{
+  color: 
+  #72DB73;
+  cursor: pointer;
+}
+
+
