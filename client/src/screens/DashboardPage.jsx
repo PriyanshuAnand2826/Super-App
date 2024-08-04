@@ -22,7 +22,7 @@ function DashboardWidget() {
 			<div className={styles.div5}>
 			<NewsWidget/>
 			</div>
-			<button className={styles.browse} onClick={console.log("Browse button clicked !!")}>Browse</button>
+			<button className={styles.browse} onClick={()=>{console.log("browser button clicked")}}>Browse</button>
 		</div>
   )
 }

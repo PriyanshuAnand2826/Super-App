@@ -4,12 +4,13 @@ import styles from "./NewsWidget.module.css";
 import formatDateAndTime from '../utils/formatDateandTime';
 
 function NewsWidget() {
-  const [news, setNews] = useState();
+  const [news, setNews] = useState([]);
 	useEffect(() => {
 		fetchNews().then((data) => {
-			if (data.status == "ok") {
+			if (data.status === "ok") {
 				const randomIndex = Math.floor(Math.random() * data.articles.length);
 				setNews(data.articles[randomIndex]);
+				console.log(news)
 				// generating a number between 0 and L-1
 			}
 		});
@@ -19,7 +20,7 @@ function NewsWidget() {
 		return `${date} | ${time}`;
 	};
 
-	console.log(news)
+	
   return (
     <div className={styles.container}>
 			<div className={styles.header}>
