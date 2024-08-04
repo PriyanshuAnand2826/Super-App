@@ -25,7 +25,7 @@ function Genres() {
  
 
   const handleNext =()=>{
-    if(selectedGenres.length<3){
+    if(selectedGenres.length < 3 ){
       setError(true)
 			console.log("can not navigate")
     }

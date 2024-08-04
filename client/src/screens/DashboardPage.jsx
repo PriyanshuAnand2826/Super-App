@@ -5,8 +5,13 @@ import NotesWidget from '../components/NotesWidget'
 import ProfileWidget from '../components/ProfileWidget'
 import NewsWidget from '../components/NewsWidget'
 import WeatherWidget from '../components/WeatherWidget'
+import { Navigate, useNavigate } from 'react-router-dom'
 
 function DashboardWidget() {
+	const navigate=useNavigate();
+	const handleBrowse=()=>{
+		navigate('/movies')
+	}
   return (
     <div className={styles.container}>
 			<div className={styles.div1}>
@@ -22,7 +27,7 @@ function DashboardWidget() {
 			<div className={styles.div5}>
 			<NewsWidget/>
 			</div>
-			<button className={styles.browse} onClick={()=>{console.log("browser button clicked")}}>Browse</button>
+			<button className={styles.browse} onClick={()=>{handleBrowse()}}>Browse</button>
 		</div>
   )
 }

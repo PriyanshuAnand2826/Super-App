@@ -26,7 +26,6 @@ function App() {
     if(!user){
       return <Navigate to="/register" />
     } 
-    
     else{
       return children;
     }
@@ -43,6 +42,7 @@ function App() {
           <ProtectRoute>
           <Genres/>
           </ProtectRoute>
+          
           }/>
         <Route exact path='/carousel' element={
            <ProtectRoute>
