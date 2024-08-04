@@ -26,9 +26,9 @@ function App() {
     if(!user){
       return <Navigate to="/register" />
     }
-    else if( user && selectedGenres.length===0){
-      return <Navigate to="/genres" />
-    }
+    // else if( user && selectedGenres.length===0){
+    //   return <Navigate to="/genres" />
+    // }
     else{
       return children;
     }
